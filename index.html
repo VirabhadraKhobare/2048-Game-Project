@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>2048</h1>
+            <div class="score-container">
+                <div class="score-box">
+                    <div class="score-label">SCORE</div>
+                    <div class="score-value" id="score">0</div>
+                </div>
+                <div class="score-box">
+                    <div class="score-label">BEST</div>
+                    <div class="score-value" id="best-score">0</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="game-intro">
+            <p><strong>HOW TO PLAY:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong></p>
+        </div>
+
+        <div class="game-container">
+            <div class="grid-container" id="grid-container">
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+            </div>
+            <div class="tile-container" id="tile-container">
+                <!-- Tiles will be dynamically generated here -->
+            </div>
+        </div>
+
+        <div class="game-controls">
+            <button class="btn-new-game" id="new-game-btn">New Game</button>
+        </div>
+
+        <div class="game-message" id="game-message">
+            <div class="message-container">
+                <div class="message-text" id="message-text"></div>
+                <div class="message-buttons">
+                    <button class="btn-try-again" id="try-again-btn">Try Again</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-controls">
+            <p>Use touch gestures to play on mobile devices!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
