@@ -1,6 +1,10 @@
 # 2048 Game Project
 A complete 2048 game implementation with both console and web versions, focusing on Data Structures & Algorithms.
 
+## 🎮 **[▶️ PLAY WEB VERSION NOW!](https://virabhadrakhobare.github.io/2048-Game-Project/)**
+
+*Click the link above to play the game instantly in your browser!*
+
 ## 🎮 Two Versions Available
 
 ### 1. Console Version (Java)
@@ -28,6 +32,9 @@ java -cp src Main
 - Q: Quit Game
 
 ### Web Version
+**🌐 Play Online:** **[Launch Game](https://virabhadrakhobare.github.io/2048-Game-Project/)**
+
+**📁 Play Locally:**
 1. Open `index.html` in any modern web browser
 2. Use arrow keys on desktop or swipe gestures on mobile
 3. Click "New Game" to restart
